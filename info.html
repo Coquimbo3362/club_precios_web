@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo funciona | Club de Precios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .gradient-text {
+            background: linear-gradient(to right, #DC2626, #EA580C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- NAV -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+                <span class="text-2xl">🛒</span>
+                <span class="font-bold text-xl tracking-tight text-gray-900">Club de Precios</span>
+            </a>
+            <a href="index.html" class="text-sm font-medium text-gray-500 hover:text-red-600 transition">Volver al Inicio</a>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="max-w-4xl mx-auto px-6 py-16 text-center">
+        <span class="bg-red-100 text-red-700 py-1 px-3 rounded-full text-xs font-bold uppercase tracking-wider">Inteligencia Colectiva</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6 text-gray-900">
+            ¿Cómo funciona el Club?
+        </h1>
+        <p class="text-xl text-gray-600 leading-relaxed">
+            Los integrantes ingresan sus compras a una base de datos común y todos comparten la información para obtener los mejores precios actuales. 
+            <br><span class="font-semibold text-gray-800">Todos trabajan para todos. Una red colaborativa donde todos ganan.</span>
+        </p>
+    </header>
+
+    <!-- SECCIÓN 1: MÉTODOS DE CARGA -->
+    <section class="bg-gray-50 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Dos formas simples de participar</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                
+                <!-- MÉTODO 1: WEB APP -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="mb-6 h-64 overflow-hidden rounded-2xl bg-gray-100">
+                        <!-- FOTO MUJER SACANDO FOTO -->
+                        <img src="foto-instruccion.jpg" alt="Mujer sacando foto" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold text-red-600 mb-4">1. La Web App</h3>
+                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                        Diseñada para cualquier dispositivo con cámara e internet. No requiere instalación y está disponible 24hs.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-2"><span class="text-green-500">✔</span> Ponga el ticket sobre una mesa.</li>
+                        <li class="flex gap-2"><span class="text-green-500">✔</span> Use el <strong>Flash</strong> para mayor definición.</li>
+                        <li class="flex gap-2"><span class="text-green-500">✔</span> Toque "Procesar": la IA leerá, calculará descuentos y grabará todo.</li>
+                    </ul>
+                </div>
+
+                <!-- MÉTODO 2: WHATSAPP -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                    <div class="mb-6 h-64 overflow-hidden rounded-2xl bg-gray-100 relative">
+                        <!-- CAPTURA APP O SIMBOLO WHATSAPP -->
+                        <img src="captura-app.jpg" alt="Captura de la App" class="w-full h-full object-cover opacity-90">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                            <span class="text-6xl">📲</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-green-600 mb-4">2. El Bot de WhatsApp</h3>
+                    <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                        La forma más rápida y eficiente. Usa la app que ya conoces.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-700">
+                        <li class="flex gap-2"><span class="text-green-500">✔</span> Tome la foto desde WhatsApp y envíela.</li>
+                        <li class="flex gap-2"><span class="text-green-500">✔</span> La IA procesa y le contesta cuando está listo.</li>
+                        <li class="flex gap-2"><span class="text-blue-500">ℹ</span> Requiere vincular su número de teléfono por única vez.</li>
+                    </ul>
+                    <p class="mt-4 text-xs text-gray-400 italic">Si no desea dar su número, puede usar siempre la Web App.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: PRIVACIDAD -->
+    <section class="py-20 max-w-5xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row gap-10 items-center">
+            <div class="md:w-1/2">
+                <img src="captura-ticket.jpg" alt="Ticket Ejemplo" class="rounded-2xl shadow-xl transform -rotate-2 border border-gray-200">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold mb-6">Privacidad y Seguridad 🛡️</h2>
+                <div class="space-y-6 text-gray-700">
+                    <p>
+                        <strong>Sin datos sensibles:</strong> El sistema no pide DNI ni tarjetas de crédito. Usted está identificado solo por un alias o su teléfono.
+                    </p>
+                    <p>
+                        <strong>Solo nos importa el precio:</strong> No nos interesa su vida privada. Solo recolectamos precios, productos, marcas, fechas y lugares de compra. Todo eso está en el ticket público.
+                    </p>
+                    <p class="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500 text-sm">
+                        La suma de todos los tickets crea una base de datos gigante dividida por rubros y zonas, diseñada para que el socio tome mejores decisiones de compra.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: FAQ -->
+    <section class="bg-gray-900 text-white py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Preguntas Frecuentes</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h4 class="font-bold text-lg mb-2 text-red-400">¿Es realmente gratis?</h4>
+                    <p class="text-gray-300 text-sm">Sí, totalmente. No hay ningún cargo ni lo habrá. Sabemos que si cobráramos, nadie lo usaría.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h4 class="font-bold text-lg mb-2 text-red-400">¿Gano dinero por subir tickets?</h4>
+                    <p class="text-gray-300 text-sm">No pagamos por subir tickets. El beneficio es el acceso a la información inteligente de la base de datos para ahorrar en sus compras.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h4 class="font-bold text-lg mb-2 text-red-400">¿Sirve para cualquier país?</h4>
+                    <p class="text-gray-300 text-sm">Sí, el sistema es global. Aunque actualmente la mayor base de datos está en Argentina, está preparado para crecer.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h4 class="font-bold text-lg mb-2 text-red-400">¿Quién es dueño de los datos?</h4>
+                    <p class="text-gray-300 text-sm">Usted es dueño de su ticket. Al compartirlo, decide colaborar. Nosotros somos el medio para organizar esa información.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="py-16 text-center">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="index.html" class="px-8 py-3 border border-gray-300 text-gray-700 font-bold rounded-full hover:bg-gray-50 transition">
+                ← Volver al Inicio
+            </a>
+            <a href="https://club-precios.streamlit.app" class="px-8 py-3 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 shadow-lg transition transform hover:-translate-y-1">
+                Registrarme Ahora
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
